@@ -8,6 +8,12 @@ image:
     alt: 'El logotipo completo de Astro.'
 tags: ["astro", "bloguear", "aprender en público"]
 ---
+
+   <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/about/">Sobre mi</a></li>
+            <li><a href="/blog/">Blog</a></li>
+         </ul>
 # Mi primera publicación en el blog
 
 Publicado el: 2022-07-01
