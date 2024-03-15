@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
 const pageTitle = "Sobre mi";
 const identity = {
   firstName: "Sarah",
@@ -17,11 +19,12 @@ const goal = 3;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>{pageTitle}</title>
+  
   </head>
   <body>
-    <a href="/">Inicio</a>
-    <a href="/about/">Sobre mi</a>
-    <a href="/blog/">Blog</a>
+
+    <Navigation />
+   
     <title>{pageTitle}</title>
     <h2>... ¡y mi nuevo sitio Astro!</h2>
     
